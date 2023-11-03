@@ -1,0 +1,117 @@
+  .container {
+      max-width: 1920px;
+      margin: 0 auto;
+      width: 100%;
+
+      .aside {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 300px;
+          height: 100vh;
+          background: #FFF;
+          transition: 0.5s;
+          //   transform: translateX(-100%);
+          z-index: 10;
+
+          .header__item--logo {
+              display: flex;
+              align-items: center;
+              flex-direction: row;
+              gap: 5px;
+              max-width: 300px;
+              width: 100%;
+              padding-left: 35px;
+              background: var(--1, linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%));
+              height: 96px;
+
+              img {
+                  margin-top: -5px;
+              }
+
+              .item__logo--svg {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 2px;
+
+              }
+          }
+
+          .header__item--search {
+              max-width: 100%;
+              display: flex;
+              align-items: center;
+              width: 100%;
+              height: 40px;
+              position: relative;
+              border: 1px solid #CFDFE5;
+
+              svg {
+                  position: absolute;
+                  top: 5px;
+                  left: 20px;
+              }
+
+              input {
+                  max-width: 100%;
+                  width: 100%;
+                  height: 100%;
+                  padding-left: 80px;
+                  border: 1px solid #CFDFE5;
+              }
+
+              input::placeholder {
+                  color: var(--Text4, #BFBFBF);
+                  font-family: Manrope;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 24px;
+              }
+          }
+
+          .aside__nav {
+              display: flex;
+              flex-direction: column;
+              padding: 50px 55px;
+              height: 100%;
+
+
+              .aside__nav--button {
+                  position: absolute;
+                  top: 95px;
+                  right: -50px;
+                  border: none;
+                  background: none;
+
+                  &:hover {
+                      transform: scale(1.5);
+                      transition: all 0.3s ease;
+                  }
+              }
+
+
+              .aside__nav--list {
+                  display: flex;
+                  flex-direction: column;
+                  height: 50%;
+                  gap: 25px;
+
+
+                  .nav__list--item {
+                      color: var(--Text2, #51555A);
+                      font-family: Manrope;
+                      font-size: 20px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: 24px;
+                      /* 120% */
+                  }
+              }
+          }
+
+          //   &.active {
+          //       transform: translateX(0%);
+          //   }
+      }
+  }

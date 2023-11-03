@@ -46,8 +46,18 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+
+    overflow-x: hidden;
+
 }
 
 .main {
     flex: 1 1 auto;
+    transition: 0.5s;
+    position: relative;
+
+
+    &.active {
+        transform: translateX(300px);
+    }
 }
