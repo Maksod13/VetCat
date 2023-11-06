@@ -382,6 +382,8 @@
         .someService-section-5-top {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+
 
             h1 {
                 color: #292D33;
@@ -390,6 +392,7 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 35px;
+                margin-bottom: 10px;
             }
 
             .someService-hospital-btn-con {
