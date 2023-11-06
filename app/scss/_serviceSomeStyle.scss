@@ -324,6 +324,21 @@
             }
         }
 
+
+        @media (max-width: 1140px) {
+            .someService-price-con {
+                max-width: 100%;
+
+                .someService-name-price {
+                    .someService-name-procedur {
+                        max-width: 100%;
+                    }
+                }
+
+
+            }
+        }
+
         .someService-price-text-info {
             max-width: 536px;
             color: #1DC3B0;
@@ -438,22 +453,264 @@
         }
 
         .someService-swipers-con {
-            margin-top: 44px;
+            margin-top: 0px;
+            position: relative;
 
-            .someService-swiper1 {
+            .custom-navigation-someService {
+                width: 110.8%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 49.7%;
+                left: 50%;
+                background-color: rgba(197, 123, 26, 0);
+                display: flex;
+                justify-content: space-between;
+
+                .custom-prev-button {
+                    background-color: rgba(197, 123, 26, 0);
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .custom-next-button {
+                    background-color: rgba(197, 123, 26, 0);
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+
+            .someService-swiper1,
+            .someService-swiper2 {
                 width: 100%;
-                height: 100px;
-                background-color: #1DC3B0;
+                height: 592px;
+                padding-top: 44px;
+                position: relative;
+                overflow: hidden;
+
+                .shadow1 {
+                    position: absolute;
+                    height: 100%;
+                    transform: translate(-50%, -50%);
+                    top: 50%;
+                    left: -1%;
+                }
+
+                .shadow2 {
+                    position: absolute;
+                    height: 100%;
+                    transform: translate(-50%, -50%);
+                    top: 50%;
+                    left: 101%;
+                }
+
+                .swiper-strogino,
+                .swiper-donskoi {
+                    width: 100%;
+                    height: 100%;
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+
+                            .card-specialist {
+                                width: 344px;
+                                height: 494px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+
+                                .top-card-specialist {
+                                    img {
+                                        height: 400px;
+                                    }
+                                }
+
+                                .bot-card-specialist {
+                                    .bot-card-name {
+                                        color: #292D33;
+                                        font-family: 'Manrope';
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 24px;
+                                        max-width: 320px;
+                                        margin-top: 13px;
+                                    }
+
+                                    .bot-card-job {
+                                        color: #51555A;
+                                        font-family: 'Manrope';
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                        margin-top: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
             }
 
             .someService-swiper2 {
-                width: 100%;
-                height: 100px;
-                background-color: #c31d83;
                 display: none;
             }
+
         }
+    }
 
 
+    @media (max-width: 1200px) {
+        .someService-section-5 {
+            padding-left: 30px;
+            padding-right: 30px;
+
+            .someService-swipers-con {
+                .custom-navigation-someService {
+                    width: 100vw;
+                }
+
+                .someService-swiper1,
+                .someService-swiper2 {
+                    width: 100%;
+                    height: 592px;
+                    padding-top: 44px;
+                    position: relative;
+                    overflow: hidden;
+
+                    .shadow1 {
+                        position: absolute;
+                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        top: 50%;
+                        left: -1%;
+                    }
+
+                    .shadow2 {
+                        position: absolute;
+                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        top: 50%;
+                        left: 101%;
+                    }
+
+                    .swiper-strogino,
+                    .swiper-donskoi {
+                        width: 100%;
+                        height: 100%;
+
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    @media (max-width: 600px) {
+        .someService-section-5 {
+            padding-left: 0px;
+            padding-right: 0px;
+
+            .someService-swipers-con {
+                .custom-navigation-someService {
+                    display: none;
+                }
+
+                .someService-swiper1,
+                .someService-swiper2 {
+                    width: 100%;
+                    height: 592px;
+                    padding-top: 44px;
+                    position: relative;
+                    overflow: hidden;
+
+                    .shadow1 {
+                        display: none;
+                    }
+
+                    .shadow2 {
+                        display: none;
+                    }
+
+                    .swiper-strogino,
+                    .swiper-donskoi {
+                        width: 100%;
+                        height: 100%;
+
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    @media (max-width: 410px) {
+        .someService-section-5 {
+            .someService-section-5-top {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+
+                h1 {
+                    font-size: 24px;
+                }
+
+            }
+
+            .someService-swipers-con { 
+                .someService-swiper1,
+                .someService-swiper2 {
+                    width: 100%;
+                    height: 592px;
+                    padding-top: 44px;
+                    position: relative;
+                    overflow: hidden;
+    
+                    .swiper-strogino,
+                    .swiper-donskoi {
+                        width: 100%;
+                        height: 100%;
+    
+                        .swiper-wrapper {
+                            .swiper-slide {
+    
+                                .card-specialist {
+                                    width: 344px;
+                                    height: 424px;
+    
+                                    .top-card-specialist {
+                                        img {
+                                            height: 280px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
