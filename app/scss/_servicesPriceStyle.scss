@@ -41,8 +41,9 @@
         }
 
         @media (max-width: 768px) {
-            .service-title {
+            .servicePrice-title {
                 font-size: 32px;
+                line-height: 35px;
             }
         }
     }
@@ -99,12 +100,15 @@
             }
         }
 
+        .show-all-service-btn{
+            display: none;
+        }
+
         .servicePrice-search-container {
             display: flex;
             width: 100%;
             margin-top: 32px;
             padding: 48px 56px;
-            border-radius: 16px;
             border-radius: 8px;
             background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
 
@@ -140,6 +144,46 @@
                 &:hover {
                     cursor: pointer;
 
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            .servicePrice-section-2-top {
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+            .servicePrice-search-container {
+                padding: 20px 10px;
+    
+                .servicePrice-search-input {
+                    font-size: 14px;
+                    padding-left: 10px;
+    
+                }
+    
+                .servicePrice-search-btn {
+                    padding: 11px 10px;
+                }
+            }
+
+            .show-all-service-btn{
+                margin-top: 20px;
+                display: block;
+                width: 200px;
+                height: 40px;
+                border-radius: 15px;
+                border: none;
+                background-color: #059E8C;
+                color: #FFF;
+                font-family: 'Manrope';
+                font-size: 18px;
+            }
+
+            .servicePrice-btns-container{
+                .servicePrice-btn:nth-child(n+7) {
+                    display: none;
                 }
             }
         }
@@ -210,6 +254,58 @@
                 }
             }
         }
+
+        @media (max-width: 550px){
+            .service-price-card {
+                padding: 20px 15px 20px 15px;
+
+                .service-price-card-title  {
+                    color: #292D33;
+                    font-family: 'Manrope';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 35px;
+                    letter-spacing: -0.2px;
+                }
+
+                .service-name-price {
+
+                    .service-name-procedur {
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+
+                    .service-price-procedur {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
     }
+
+    .servicePrice-section-4{
+        margin: auto;
+        max-width: 1112px;
+        margin-bottom: 40px;
+        display: none;
+
+        .noneFound-page{
+            font-family: 'Manrope';
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+
+        @media (max-width: 768px){
+            .noneFound-page{
+                font-size: 20px;
+            }
+        }
+
+
+    }
+
 
 }
