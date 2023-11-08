@@ -152,6 +152,7 @@
 }
 
 .filter {
+
     position: fixed;
     width: 100%;
     height: 100%;
@@ -161,10 +162,15 @@
     background-color: hsla(0deg, 0%, 7%, .36);
     opacity: 0;
     transition: 0.5s;
-    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+    visibility: hidden;
 
     &.active {
+        overflow: unset;
+        visibility: visible;
         opacity: 1;
+        z-index: 2;
 
     }
 }
@@ -182,6 +188,7 @@
     .header .header__inner .header__item--contact .inner__item--location {
         width: 100%;
         gap: 100px;
+        padding-left: 300px;
 
     }
 
@@ -191,9 +198,15 @@
 
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1300px) {
     .header .header__inner .header__item--contact .inner__item--call {
         width: 300px;
+    }
+
+    .header .header__inner .header__item--contact .inner__item--location {
+
+        padding-left: 0;
+
     }
 
     .header .header__inner .header__item--contact .inner__item--location {
