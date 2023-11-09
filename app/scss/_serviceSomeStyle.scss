@@ -701,6 +701,8 @@
                                     height: 424px;
     
                                     .top-card-specialist {
+                                        display: flex;
+                                        justify-content: center;
                                         img {
                                             height: 280px;
                                         }
