@@ -1,12 +1,9 @@
 @import"../scss/fonts";
 @import"../scss/wrapper";
-@import"../scss/servicesStyle";
-@import"../scss/serviceSomeStyle";
-@import"../scss/servicesPriceStyle";
 @import"../scss/header";
 @import"../scss/aside";
 @import"../scss/footer";
-@import"../scss/personal";
+@import"../scss/contacts";
 
 .title {
     position: relative;
@@ -2117,7 +2114,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     .service .service__headline .service__headline--links .service__link {
         width: 120px;
         font-size: 10px;
