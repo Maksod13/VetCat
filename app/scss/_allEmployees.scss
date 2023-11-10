@@ -1,0 +1,121 @@
+.main-allEmployees {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.allEmployees-section-1 {
+    margin: auto;
+    max-width: 1112px;
+    padding-top: 57px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .allEmployees-link-container {
+        .allEmployees-link-container-active {
+            color: #797C80;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-right: 4px;
+        }
+
+        .allEmployees-link-container-gray {
+            color: #BFBFBF;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: 2px;
+        }
+    }
+
+    .allEmployees-title {
+        color: #292D33;
+        font-family: 'Manrope';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        margin-top: 5px;
+        letter-spacing: -0.1px;
+    }
+
+    @media (max-width: 768px) {
+        .schedule-title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+}
+
+.allEmployees-section-2{
+    margin: auto;
+    max-width: 1112px;
+    padding-top: 34px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .allEmployees-section-2-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        h1 {
+            color: #292D33;
+            font-family: 'Manrope';
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px; 
+            margin-bottom: 10px;
+            max-width: 650px;
+            letter-spacing: -0.05px;
+        }
+
+        .allEmployees-hospital-btn-con {
+            margin-top: 4px;
+            display: flex;
+            width: 324px;
+            height: 48px;
+            justify-content: space-between;
+            box-shadow: 0px 0px 3px 0px rgba(13, 61, 46, 0.40) inset;
+            padding: 4px;
+            border-radius: 20px;
+
+            button {
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 40px;
+                border-radius: 16px;
+                text-align: center;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                border: none;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+
+
+            .btn-active {
+                color: #FFF;
+                background-color: #1DC3B0;
+            }
+
+            .btn-nonactive {
+                color: #797C80;
+                background-color: rgba(13, 61, 46, 0.0);
+            }
+        }
+
+    }
+}
