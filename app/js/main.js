@@ -25,7 +25,19 @@ const swiperservice = new Swiper('.swiper__service', {
     loop: true,
     slidesPerView: 3, 
     spaceBetween: 40,
-breakpoints: {
+  breakpoints: {
+     320: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
+    },
+    375: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
+    },
+  430: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
+    },
     768: {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
   },
@@ -73,8 +85,17 @@ const swiperhistory = new Swiper('.swiper__history', {
    slidesPerView: 4, 
     spaceBetween: 40,
   breakpoints: {
+      320: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
+    },
+     375: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
+    },
     430: {
       slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+  
     },
    500: {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
@@ -90,6 +111,14 @@ const swiperhistory = new Swiper('.swiper__history', {
     },
     970: {
       slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
+      spaceBetween: 60,
+    },
+      1620: {
+      slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
+      spaceBetween: 60,
+    },
+        1920: {
+      slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
       spaceBetween: 60,
     },
   },

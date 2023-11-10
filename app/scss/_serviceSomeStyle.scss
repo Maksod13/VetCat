@@ -124,8 +124,6 @@
         }
     }
 
-
-
     .someService-section-3 {
         margin: auto;
         max-width: 1112px;
@@ -679,7 +677,8 @@
 
             }
 
-            .someService-swipers-con { 
+            .someService-swipers-con {
+
                 .someService-swiper1,
                 .someService-swiper2 {
                     width: 100%;
@@ -687,19 +686,19 @@
                     padding-top: 44px;
                     position: relative;
                     overflow: hidden;
-    
+
                     .swiper-strogino,
                     .swiper-donskoi {
                         width: 100%;
                         height: 100%;
-    
+
                         .swiper-wrapper {
                             .swiper-slide {
-    
+
                                 .card-specialist {
                                     width: 344px;
                                     height: 424px;
-    
+
                                     .top-card-specialist {
                                         img {
                                             height: 280px;
