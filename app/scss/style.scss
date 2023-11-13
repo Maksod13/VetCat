@@ -228,7 +228,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: 56px;
-            margin-left: 45px;
+            margin-left: 35px;
 
         }
 
@@ -374,7 +374,7 @@
                 gap: 31px;
                 max-width: 333px;
                 width: 100%;
-                margin-left: 95px;
+                margin-left: 110px;
 
                 .VetCat__content--title {
                     color: #292D33;
@@ -518,6 +518,7 @@
             align-items: center;
             justify-content: center;
             /* Кнопка */
+
             font-family: Manrope;
             font-size: 16px;
             font-style: normal;
@@ -531,7 +532,8 @@
 .someService-section-5 {
     margin: auto;
     max-width: 1112px;
-    padding-top: 91px;
+    padding-top: 81px;
+    min-height: 930px;
 
     .someService-section-5-top {
         display: flex;
@@ -626,7 +628,7 @@
         .someService-swiper2 {
             width: 100%;
             height: 592px;
-            padding-top: 44px;
+            margin-top: 115px;
             position: relative;
             overflow: hidden;
 
@@ -760,7 +762,7 @@
             width: 100%;
             height: 440px;
             margin-top: 65px;
-            padding: 0 39px;
+            padding: 0 40px;
 
 
             .swiper__history--slide {
@@ -1281,7 +1283,7 @@
         position: relative;
         display: flex;
         margin: 0 auto;
-        max-width: 1160px;
+        max-width: 1140px;
         width: 100%;
         padding: 0 10px;
 
@@ -1982,22 +1984,31 @@
         }
     }
 
+    .title .puppy {
+        position: static;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .title .title__container .main__title--list .title__list--item {
+        color: #292D33;
+    }
+
     .service .service__headline .service__headline--title {
         text-align: center;
     }
 
     .title .title__container .main__title {
         font-size: 30px;
+        line-height: 40px;
     }
 
     .title .title__container {
         max-width: 300px;
         padding-top: 0;
         margin: 0 auto;
-    }
-
-    .title .title__container .main__title--list .title__list--item {
-        color: #DCF2E8;
     }
 
     .service .service__headline {
@@ -2055,7 +2066,8 @@
     }
 
     .history .history__inner .history__footer--img {
-        height: 100px;
+        height: 170px;
+
     }
 
     .blog .blog__inner .history__inner--headline {

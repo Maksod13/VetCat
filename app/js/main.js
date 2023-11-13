@@ -1,24 +1,3 @@
-const button = document.querySelector('.aside__nav--button');
-const aside = document.querySelector('.aside');
-const filter = document.querySelector('.filter');
-const main = document.querySelector('.main');
-button.addEventListener('click', function () {
-            aside.classList.toggle('active');
-            filter.classList.toggle('active');
-             main.classList.toggle('active');
-        });
-    
-const dropbutton = document.querySelector('.drop__down--btn');
-const dropbutton2 = document.querySelector('.drop__down--btn2');
-const dropmenu = document.querySelector('.dropdown__menu');  
-const dropmenu2 = document.querySelector('.dropdown__menu2');       
-dropbutton.addEventListener('click', function () {
- dropmenu.classList.toggle('active');
-});
-dropbutton2.addEventListener('click', function () {
- dropmenu2.classList.toggle('active');
-});
-
 const swiperservice = new Swiper('.swiper__service', {
   // Optional parameters
   direction: 'horizontal',
@@ -51,8 +30,6 @@ const swiperservice = new Swiper('.swiper__service', {
   },
 
 });
-
-
 const paginationButtons = document.querySelectorAll('[class^="VetCat__pagination--btn"]');
 const infoElements = document.querySelectorAll('[class^="VetCat__info--img"]');
 const svgElements = document.querySelectorAll('[class^="VetCat__svgpagination"]');
@@ -115,11 +92,11 @@ const swiperhistory = new Swiper('.swiper__history', {
     },
       1620: {
       slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
-      spaceBetween: 60,
+      spaceBetween: 40,
     },
         1920: {
       slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
-      spaceBetween: 60,
+      spaceBetween: 40,
     },
   },
   // Navigation arrows
@@ -132,8 +109,6 @@ const swiperhistory = new Swiper('.swiper__history', {
 });
 const buttons = document.querySelectorAll('[class^="blog__itemlinks--btn"]');
 const items = document.querySelectorAll('[class^="blog__content--item"]');
-
-// Устанавливаем класс "active" для первой кнопки и соответствующего элемента
 buttons[0].classList.add('active');
 items[0].classList.add('active');
 
@@ -149,7 +124,31 @@ buttons.forEach((button, index) => {
   });
 });
 
-const swiperStrogino = new Swiper('.swiper-strogino', {
+const stroginoHospital1 = document.querySelector(".strogino-hospital");
+const donskoiHospital1 = document.querySelector(".donskoi-hospital");
+const swiper3 = document.querySelector(".someService-swiper1");
+const swiper4 = document.querySelector(".someService-swiper2");
+
+stroginoHospital1.addEventListener("click", () => {
+  swiper3.style.display = "block";
+  swiper4.style.display = "none";
+  donskoiHospital1.classList.remove("btn-active");
+  donskoiHospital1.classList.add("btn-nonactive");
+  stroginoHospital1.classList.remove("btn-nonactive");
+  stroginoHospital1.classList.add("btn-active");
+
+});
+
+donskoiHospital1.addEventListener("click", () => {
+  swiper3.style.display = "none";
+  swiper4.style.display = "block";
+  stroginoHospital1.classList.remove("btn-active");
+  stroginoHospital1.classList.add("btn-nonactive");
+  donskoiHospital1.classList.remove("btn-nonactive");
+  donskoiHospital1.classList.add("btn-active");
+});
+
+const swiperStrogino1 = new Swiper('.swiper-strogino', {
 
   slidesPerView: 1,
   navigation: {
@@ -172,7 +171,7 @@ const swiperStrogino = new Swiper('.swiper-strogino', {
 });
 
 
-const swiperDonskoi = new Swiper('.swiper-donskoi', {
+const swiperDonskoi2 = new Swiper('.swiper-donskoi', {
 
   slidesPerView: 1,
   navigation: {
@@ -193,3 +192,11 @@ const swiperDonskoi = new Swiper('.swiper-donskoi', {
   },
 
 });
+  
+
+
+
+
+
+
+
