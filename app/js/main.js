@@ -151,28 +151,28 @@ buttons.forEach((button, index) => {
 
 
 
-const stroginoHospital = document.querySelector(".strogino-hospital");
-const donskoiHospital = document.querySelector(".donskoi-hospital");
-const swiper1 = document.querySelector(".someService-swiper1");
-const swiper2 = document.querySelector(".someService-swiper2");
+const stroginoHospital1 = document.querySelector(".strogino-hospital");
+const donskoiHospital1 = document.querySelector(".donskoi-hospital");
+const swiper3 = document.querySelector(".someService-swiper1");
+const swiper4 = document.querySelector(".someService-swiper2");
 
-stroginoHospital.addEventListener("click", () => {
-  swiper1.style.display = "block";
-  swiper2.style.display = "none";
-  donskoiHospital.classList.remove("btn-active");
-  donskoiHospital.classList.add("btn-nonactive");
-  stroginoHospital.classList.remove("btn-nonactive");
-  stroginoHospital.classList.add("btn-active");
+stroginoHospital1.addEventListener("click", () => {
+  swiper3.style.display = "block";
+  swiper4.style.display = "none";
+  donskoiHospital1.classList.remove("btn-active");
+  donskoiHospital1.classList.add("btn-nonactive");
+  stroginoHospital1.classList.remove("btn-nonactive");
+  stroginoHospital1.classList.add("btn-active");
 
 });
 
-donskoiHospital.addEventListener("click", () => {
-  swiper1.style.display = "none";
-  swiper2.style.display = "block";
-  stroginoHospital.classList.remove("btn-active");
-  stroginoHospital.classList.add("btn-nonactive");
-  donskoiHospital.classList.remove("btn-nonactive");
-  donskoiHospital.classList.add("btn-active");
+donskoiHospital1.addEventListener("click", () => {
+  swiper3.style.display = "none";
+  swiper4.style.display = "block";
+  stroginoHospital1.classList.remove("btn-active");
+  stroginoHospital1.classList.add("btn-nonactive");
+  donskoiHospital1.classList.remove("btn-nonactive");
+  donskoiHospital1.classList.add("btn-active");
 });
 
 const swiperStrogino1 = new Swiper('.swiper-strogino', {

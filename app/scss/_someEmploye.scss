@@ -1,0 +1,671 @@
+.main-someEmploye {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.someEmploye-section-1 {
+    background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
+
+    .someEmploye-section-1-body {
+        margin: auto;
+        max-width: 1152px;
+        padding-top: 57px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 78px;
+
+        .someEmploye-link-container {
+            .someEmploye-link-container-active {
+                color: #797C80;
+                font-family: 'Manrope';
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                margin-right: 4px;
+            }
+
+            svg {
+                margin-right: 3px;
+            }
+
+            .someEmploye-link-container-gray {
+                color: #BFBFBF;
+                font-family: 'Manrope';
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                margin-left: 0px;
+            }
+        }
+
+
+        .someEmploye-section-1-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .someEmploye-section-1-left {
+
+                order: -1;
+
+                .someEmploye-title {
+                    color: #292D33;
+                    font-family: 'Manrope';
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin-top: 5px;
+                    max-width: 498px;
+                }
+
+                @media (max-width: 768px) {
+                    .someEmploye-title {
+                        font-size: 32px;
+                        line-height: 35px;
+                    }
+                }
+
+                .someEmploye-section-1-specialization {
+                    color: #51555A;
+                    font-family: 'Manrope';
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                    margin-top: 12px;
+                    margin-left: -1px;
+                }
+
+                .someEmploye-section-1-specializations {
+                    color: #292D33;
+                    font-family: 'Manrope';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-top: 22px;
+                }
+
+                .someEmploye-specializations-con {
+                    display: flex;
+                    margin-top: 10px;
+                    flex-wrap: wrap;
+
+                    .someEmploye-someSpec {
+                        padding: 7px 14px 9px;
+                        background-color: #fff;
+                        color: #292D33;
+                        text-align: center;
+                        font-family: 'Manrope';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-right: 8px;
+                    }
+                }
+
+                .orderTo {
+                    display: block;
+                    padding: 11px 24px;
+                    width: 218px;
+                    height: 48px;
+                    border-radius: 16px;
+                    background-color: #1DC3B0;
+                    color: #FFF;
+                    font-family: 'Manrope';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-top: 40px;
+                }
+            }
+
+            .someEmploye-section-1-right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 19px;
+
+                a {
+                    color: #059E8C;
+                    text-align: center;
+                    font-family: 'Manrope';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    svg {
+                        margin-right: 6px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .img-main {
+                        width: 320px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+
+.someEmploye-section-2 {
+    margin: auto;
+    max-width: 1152px;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 96px;
+
+    .someEmploye-section-2-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .located {
+            display: flex;
+            color: #292D33;
+            font-family: 'Manrope';
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            margin-top: 34px;
+
+            span {
+                margin-left: 4px;
+                margin-top: -4px;
+            }
+        }
+
+        .schedule {
+            width: 771px;
+            min-width: 771px;
+            position: relative;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: -3px;
+            margin-top: 26px;
+
+            .svg-line {
+                position: absolute;
+                width: 100%;
+                top: 64px;
+            }
+
+            .right-navigation-btn {
+                position: absolute;
+                right: -4.8%;
+                top: -31px;
+            }
+
+            @media (max-width: 1200px) {
+                .right-navigation-btn {
+                    right: 0px;
+                }
+            }
+
+            table {
+                width: 101.5%;
+                border-collapse: collapse;
+
+                th,
+                td {
+                    text-align: left;
+
+                }
+
+
+                th,
+                td {
+                    width: 96px;
+                }
+
+                .main-row {
+
+                    .main-top-title {
+                        color: #292D33;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: -0.5px;
+                        // padding-bottom: 44px;
+                        text-align: left;
+                        vertical-align: top;
+                        height: 74px;
+
+
+                        span {
+                            margin-left: -2px;
+                        }
+                    }
+
+                    .main-top-item {
+                        .name-day {
+                            color: #292D33;
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;
+                            margin-bottom: 5px;
+                            font-family: 'Manrope';
+                        }
+
+                        .date {
+                            color: #797C80;
+                            font-family: 'Manrope';
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+                            font-family: 'Manrope';
+                        }
+
+                        .name-day-red {
+                            color: #E31351;
+                        }
+                    }
+
+                }
+
+                .personal-item {
+                    margin-left: -1px;
+                    padding-top: 19px;
+
+                    .name-doctor {
+                        color: #292D33;
+                        font-family: 'Manrope';
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 20px;
+                        margin-left: -1px;
+                    }
+
+                    .position {
+                        color: var(--Text3, #797C80);
+                        font-family: 'Manrope';
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        margin-top: 5px;
+                    }
+                }
+
+                .personal-item-top {
+                    padding-top: 23px;
+                }
+
+                .item-value {
+                    vertical-align: top;
+                    color: #292D33;
+                    font-family: 'Manrope';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.8px;
+                    padding-top: 30px;
+                    padding-bottom: 20px;
+                }
+
+                .item-value-bot {
+                    padding-top: 18px;
+                }
+
+
+            }
+
+        }
+
+        @media (max-width: 800px) {
+
+            overflow-y: scroll;
+
+
+        }
+    }
+
+    .someEmploye-section-2-bot {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 86px;
+
+        .someEmploye-education {
+            height: min-content;
+            width: 536px;
+            padding: 35px 56px 41px;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
+
+
+            .education-title {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+                margin-bottom: 25px;
+            }
+
+            .education-sub-title {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                margin-bottom: 14px;
+                margin-top: 22px;
+            }
+
+            .education-year-about {
+                display: flex;
+                justify-content: space-between;
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 12px;
+
+                .education-year {
+                    max-width: 44px;
+                }
+
+                .education-about {
+                    max-width: 364px;
+                }
+            }
+        }
+
+        .someEmploye-skils {
+            width: 536px;
+            padding: 35px 56px 41px;
+            border-radius: 8px;
+            margin-left: 10px;
+            background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
+
+
+            .skils-title {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+                margin-bottom: 25px;
+            }
+
+            .skils-dot-about {
+                display: flex;
+                justify-content: space-between;
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+
+                .skils-dot {
+                    width: 6px;
+                    height: 6px;
+                    background: #1DC3B0;
+                    margin-top: 11px;
+                }
+
+                .skils-about {
+                    max-width: 408px;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        @media (max-width: 1138px) {
+            .someEmploye-education {
+                padding: 35px 30px;
+                width: 100%;
+                margin-bottom: 20px;
+
+                .education-year-about {
+                    justify-content: left;
+
+                    .education-year {
+                        min-width: 50px;
+                    }
+
+                    .education-about {
+                        max-width: 850px;
+                    }
+                }
+            }
+
+            .someEmploye-skils {
+                padding: 35px 30px;
+                width: 100%;
+                margin-left: 0px;
+
+                .skils-dot-about {
+                    justify-content: left;
+
+                    .skils-dot {
+                        padding-right: 6px;
+                        margin-right: 20px;
+                    }
+
+                    .skils-about {
+                        max-width: 850px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.someEmploye-section-3 {
+    background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
+
+    .someEmploye-section-3-body {
+        margin: auto;
+        max-width: 1152px;
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 97px;
+
+        .someEmploye-section-3-top {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .title-vidguk {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+                margin-top: 3px;
+            }
+
+            .vidguk-btn {
+                border: none;
+                width: 174px;
+                height: 48px;
+                background-color: #1DC3B0;
+                color: #FFF;
+                text-align: center;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                border-radius: 16px;
+            }
+        }
+    }
+
+    .someEmploye-section-3-bot {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+        .vidguk-card {
+            border-radius: 16px;
+            background: #FFF;
+            padding: 27px 32px 40px;
+
+            .vidguk-title {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            .vidguk-text {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                margin-top: 16px
+            }
+
+            .bottom-section {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 16px;
+
+                .vidguk-date {
+                    color: #797C80;
+                    font-family: 'Manrope';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+
+                .readFull {
+                    color: #1DC3B0;
+                    font-family: 'Manrope';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+
+                    svg {
+                        margin-left: 3px;
+                    }
+                }
+            }
+
+
+        }
+
+        .card1 {
+            max-width: 728px;
+        }
+
+        .card2 {
+            max-width: 344px;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 1148px) {
+            .vidguk-card {
+                max-width: 1200px;
+            }
+
+            .card2 {
+                margin-top: 20px;
+                margin-left: 0px;
+            }
+        }
+
+    }
+}
+
+.someEmploye-vidguk-active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #192224;
+    top: 0;
+    left: 0;
+    display: none;
+    padding-top: 104px;
+
+
+    .vidguk-con {
+        margin: auto;
+        background-color: #fff;
+        max-width: 1212px;
+        padding: 88px 144px;
+        position: relative;
+
+        .author {
+            color: #292D33;
+            font-family: 'Manrope';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            margin-bottom: 28px;
+        }
+
+        .comment {
+            color:  #292D33;
+            font-family: 'Manrope';
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .zakryt{
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            background: rgba(34, 34, 34, 0);
+            border: none;
+
+            
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    @media (max-width: 1230px) {
+        padding: 30px 10px;
+        height: max-content;
+
+        .vidguk-con{
+            padding: 40px 20px;
+        }
+    }
+}
