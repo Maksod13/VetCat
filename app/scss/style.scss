@@ -5,7 +5,8 @@
 @import"../scss/footer";
 @import"../scss/contacts";
 @import"../scss/patients";
-@import"../scss/article";
+@import"../scss/about";
+@import"../scss/gallery";
 
 .title {
     position: relative;
@@ -25,14 +26,15 @@
         display: flex;
         flex-direction: column;
         gap: 33px;
-        max-width: 752px;
+        max-width: 1052px;
         width: 100%;
-        margin-left: 250px;
+        margin: 0 auto;
         z-index: 1;
 
         .main__title {
             color: var(--Text1, #292D33);
             font-family: Manrope;
+            max-width: 752px;
             font-size: 64px;
             font-style: normal;
             font-weight: 700;
@@ -1558,10 +1560,21 @@
     }
 }
 
+@media (max-width: 1480px) {
+    .inst .inst__container .inst__cat {
+        left: 70%;
+    }
+
+}
+
 @media (max-width: 1260px) {
     .VetCat .VetCat__inner .VetCat__inner--info {
         margin-left: 0;
         margin: 0 auto;
+    }
+
+    .inst .inst__container .inst__cat {
+        left: 63%;
     }
 }
 
@@ -1622,6 +1635,10 @@
 @media (max-width: 1190px) {
     .service .service__headline .service__headline--title {
         font-size: 35px;
+    }
+
+    .map .map__inner .map__inner--info {
+        flex-direction: column;
     }
 
     .VetCat .VetCat__inner .VetCat__inner--info .VetCat__info--content {
@@ -1857,6 +1874,11 @@
         max-width: 500px;
     }
 
+    .someService-section-5 .someService-section-5-top {
+        align-items: center;
+        justify-content: center;
+    }
+
     .title .title__container .main__title {
         font-size: 35px;
     }
@@ -1998,6 +2020,8 @@
         color: #292D33;
     }
 
+
+
     .service .service__headline .service__headline--title {
         text-align: center;
     }
@@ -2128,10 +2152,81 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .service .service__headline .service__headline--links .service__link {
         width: 120px;
         font-size: 10px;
+    }
+
+    .someService-section-5 {
+        padding-top: 0;
+    }
+
+    .service {
+        margin-top: 50px;
+    }
+
+    .VetCat .VetCat__inner .VetCat__inner--info {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .VetCat .VetCat__inner .VetCat__inner--info .VetCat__info--content {
+        padding-top: 0;
+    }
+
+    .someService-section-5 .someService-section-5-top h1 {
+        text-align: center;
+    }
+
+    .someService-section-5 .someService-section-5-top {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .someService-section-5 .someService-swipers-con .someService-swiper1,
+    .someService-section-5 .someService-swipers-con .someService-swiper2 {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .someService-section-5 .someService-swipers-con .someService-swiper1 .swiper-strogino .swiper-wrapper .swiper-slide .card-specialist,
+    .someService-section-5 .someService-swipers-con .someService-swiper1 .swiper-donskoi .swiper-wrapper .swiper-slide .card-specialist,
+    .someService-section-5 .someService-swipers-con .someService-swiper2 .swiper-strogino .swiper-wrapper .swiper-slide .card-specialist,
+    .someService-section-5 .someService-swipers-con .someService-swiper2 .swiper-donskoi .swiper-wrapper .swiper-slide .card-specialist {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .history .history__inner {
+        padding-top: 50px;
+    }
+
+    .history .history__inner .history__footer--img {
+        transform: translate(-50%, 30%);
+    }
+
+    .VetCat .VetCat__inner .VetCat__inner--info .VetCat__info--content .VetCat__content--text {
+        order: 1;
+    }
+
+    .VetCat .VetCat__inner .VetCat__inner--info .Vetcat__info--pagination {
+        padding-top: 0;
+        order: 2;
+    }
+
+    .VetCat .VetCat__inner .VetCat__inner--info .VetCat__info--element {
+        order: 3;
+    }
+
+
+    .VetCat .VetCat__inner .VetCat__inner--info .VetCat__info--content .VetCat__content--title {
+        text-align: center;
     }
 
     .VetCat .VetCat__inner .VetCat__inner--title {
