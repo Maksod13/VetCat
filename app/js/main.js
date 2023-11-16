@@ -124,6 +124,8 @@ buttons.forEach((button, index) => {
   });
 });
 
+
+
 const stroginoHospital1 = document.querySelector(".strogino-hospital");
 const donskoiHospital1 = document.querySelector(".donskoi-hospital");
 const swiper3 = document.querySelector(".someService-swiper1");
