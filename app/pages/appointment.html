@@ -1,0 +1,57 @@
+<section class="appointment">
+  <div class="appointment__inner">
+    <h2 class="appointment__inner--title">Запись на прием</h2>
+    <div class="appointment__inner--avatar">
+      <div class="appointments__avatar--item">
+        <div class="appointment__inner--text">Имя и фамилия</div>
+        <div class="appointment__avatar--name">
+          <input type="text" name="text" required />
+        </div>
+      </div>
+      <div class="appointments__avatar--item">
+        <div class="appointment__inner--text">Телефон</div>
+        <div class="appointment__avatar--tel">
+          <input type="text" name="text" required />
+        </div>
+      </div>
+    </div>
+    <div class="appointment__inner--buttons">
+      <div class="appointment__inner--text">Филиал центра</div>
+      <div class="appointment__buttons--buttons">
+        <button class="appointment__buttons--strogino">Строгино</button>
+        <button class="appointment__buttons--donskoyi">Донской</button>
+      </div>
+    </div>
+    <div class="appointment__inner--data">
+      <div class="appointment__inner--text">Дата приема</div>
+      <input type="text" name="text" required />
+    </div>
+    <div class="appointment__inner--pet">
+      <div class="appointment__pet--info">
+        <div class="appointment__inner--text">Кто ваш питомец?</div>
+        <div class="appointment__inner--text2">например, кот Кокос</div>
+      </div>
+      <input type="text" name="text" required />
+    </div>
+    <div class="appointment__inner--message">
+      <div class="appointment__message--text">
+        <span class="text__bold">Сообщение</span>
+        (необязательно)
+      </div>
+      <div class="appointment__message--text">
+        Можете описать проблему вашего питомца или указать специалиста, к
+        которому хотите попасть на прием
+      </div>
+      <textarea name="" id="" cols="50" rows="10"></textarea>
+    </div>
+    <div class="appointment__inner--agree">
+      <div class="checkbox-container">
+        <input type="checkbox" id="myCheckbox" />
+        <label for="myCheckbox"
+          >Я согласен с условиями обработки персональных данных</label
+        >
+      </div>
+      <button class="appointment__agree--btn">Записаться</button>
+    </div>
+  </div>
+</section>
