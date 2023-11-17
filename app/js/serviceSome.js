@@ -66,3 +66,30 @@ const swiperDonskoi = new Swiper('.swiper-donskoi', {
   },
 
 });
+
+
+// zapys na priyom
+
+let orderTo = document.querySelector('.orderTo2');
+let overlay2 = document.querySelector('.overlay-appointment2');
+let closeOverlay2 = document.querySelector('.close-popup-btn2');
+let submitBtn2 = document.querySelector('.appointment__agree--btn');
+
+function showPopUpAppointment(){
+    overlay2.style.display = "block";
+};
+
+function closePopUpAppointment(){
+    overlay2.style.display = "none";
+};
+
+orderTo.addEventListener('click', showPopUpAppointment);
+closeOverlay2.addEventListener('click', closePopUpAppointment);
+
+function submitBtnClick2(){
+    overlay2.style.display = "none";
+}
+
+// submitBtn.addEventListener('submit', submitBtnClick);
+
+submitBtn2.addEventListener('click', closePopUpAppointment);
