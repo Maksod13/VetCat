@@ -109,7 +109,7 @@ function building() {
         'app/js/main.min.js',
         'app/**/*.html'
     ], {base : 'app'})    
-    .pipe(dest('../'))
+    .pipe(dest('.'))
  }
 function cleanDist(){
 return src ('dist')
