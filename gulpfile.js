@@ -105,11 +105,11 @@ function building() {
         'app/css/styles.min.css',
         'app/images/dist/*.*',
         '!app/images/dist/*.svg',
-         'app/fonts*.*',
+        'app/fonts*.*',
         'app/js/main.min.js',
         'app/**/*.html'
     ], {base : 'app'})
-    .pipe(dest('.'))
+    .pipe(dest('../'))
  }
 function cleanDist(){
 return src ('dist')
