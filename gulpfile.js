@@ -105,8 +105,7 @@ function building() {
         'app/css/styles.min.css',
         'app/images/dist/*.*',
         '!app/images/dist/*.svg',
-        'app/images/dist/sprite.svg',
-         'app/fonts*.*',
+        'app/fonts*.*',
         'app/js/main.min.js',
         'app/**/*.html'
     ], {base : 'app'})
