@@ -125,4 +125,4 @@ exports.sprite = sprite;
 exports.scripts = scripts;
 exports.watching = watching;
 exports.build = series(cleanDist, building); 
-exports.default = parallel(styles,images, scripts, pages, watching);
+exports.default = parallel(styles, images, scripts, pages, watching);
