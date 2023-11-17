@@ -108,7 +108,7 @@ function building() {
         'app/fonts*.*',
         'app/js/main.min.js',
         'app/**/*.html'
-    ], {base : 'app'})
+    ], {base : 'app'})    
     .pipe(dest('../'))
  }
 function cleanDist(){
