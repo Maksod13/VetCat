@@ -4,8 +4,10 @@
 
     .servicePrice-section-1 { 
         margin: auto;
-        max-width: 1112px;
+        max-width: 1152px;
         padding-top: 57px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .servicePrice-link-container {
             .servicePrice-link-container-active {
@@ -50,7 +52,9 @@
 
     .servicePrice-section-2 {
         margin: auto;
-        max-width: 1112px;
+        max-width: 1152px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .servicePrice-section-2-top {
             margin-top: 34px;
@@ -191,12 +195,14 @@
 
     .servicePrice-section-3{
         margin: auto;
-        max-width: 1112px;
+        max-width: 1152px;
         display: flex;
         flex-wrap: wrap;
         margin-top: 48px;
         justify-content: space-between;
         padding-bottom: 76px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .service-price-card {
             max-width: 536px;
@@ -287,9 +293,11 @@
 
     .servicePrice-section-4{
         margin: auto;
-        max-width: 1112px;
+        max-width: 1152px;
         margin-bottom: 40px;
         display: none;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .noneFound-page{
             font-family: 'Manrope';
