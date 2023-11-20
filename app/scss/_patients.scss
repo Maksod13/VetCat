@@ -474,8 +474,24 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 385px) {
     .patients__headline .patients__headline--inner .patients__inner--title {
         font-size: 30px;
+    }
+
+    .patients__content .patients1 .swiperpatients1-button-next {
+        display: none;
+    }
+
+    .patients__content .patients1 .swiperpatients1-button-prev {
+        display: none;
+    }
+
+    .patients__content .patients2 .swiperpatients2-button-next {
+        display: none;
+    }
+
+    .patients__content .patients2 .swiperpatients2-button-prev {
+        display: none;
     }
 }

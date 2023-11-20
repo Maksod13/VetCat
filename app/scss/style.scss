@@ -769,11 +769,11 @@
         }
 
         .swiper__history {
-            max-width: 1190px;
+            max-width: 1185px;
             width: 100%;
             height: 440px;
             margin-top: 65px;
-            padding: 0 40px;
+            padding: 0 35px;
 
 
             .swiper__history--slide {
@@ -823,7 +823,7 @@
             .swiper__history--btnprev {
                 position: absolute;
                 top: 40%;
-                left: 0;
+                left: -5px;
                 z-index: 2;
             }
 
