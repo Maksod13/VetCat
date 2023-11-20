@@ -610,14 +610,15 @@
 }
 
 .someEmploye-vidguk-active {
-    position: absolute;
+    position: fixed;
+    top: 0; 
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: #192224;
-    top: 0;
-    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 50;
+    padding-top: 60px;
     display: none;
-    padding-top: 104px;
 
 
     .vidguk-con {
@@ -626,6 +627,8 @@
         max-width: 1212px;
         padding: 88px 144px;
         position: relative;
+        max-height: 90%;
+        overflow-x: scroll;
 
         .author {
             color: #292D33;
@@ -638,7 +641,7 @@
         }
 
         .comment {
-            color:  #292D33;
+            color: #292D33;
             font-family: 'Manrope';
             font-size: 17px;
             font-style: normal;
@@ -646,14 +649,14 @@
             line-height: 28px;
         }
 
-        .zakryt{
+        .zakryt {
             position: absolute;
             top: 32px;
             right: 32px;
             background: rgba(34, 34, 34, 0);
             border: none;
 
-            
+
             &:hover {
                 cursor: pointer;
             }
@@ -663,13 +666,13 @@
 
     @media (max-width: 1230px) {
         padding: 30px 10px;
-        height: max-content;
+        // height: max-content;
 
-        .vidguk-con{
+        .vidguk-con {
             padding: 40px 20px;
         }
     }
-}
+} 
 
 .appointment {
     max-width: 608px;
