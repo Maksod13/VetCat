@@ -65,7 +65,8 @@ paginationButtons.forEach((button, index) => {
 const swiperhistory = new Swiper('.swiper__history', {
   // Optional parameters
   direction: 'horizontal',
-   slidesPerView: 4, 
+  slidesPerView: 4, 
+    loop: true,
     spaceBetween: 40,
   breakpoints: {
       320: {
@@ -95,6 +96,10 @@ const swiperhistory = new Swiper('.swiper__history', {
     970: {
       slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
       spaceBetween: 60,
+    },
+     1024: {
+      slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
+      spaceBetween: 40,
     },
       1620: {
       slidesPerView: 4, // Кількість слайдів при ширині екрану 1300px і більше
