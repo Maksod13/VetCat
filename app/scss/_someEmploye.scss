@@ -674,7 +674,7 @@
     max-width: 608px;
     width: 100%;
     min-height: 880px;
-    height: 100%;
+    height: min-content;
     border-radius: 26px;
     background: #fff;
     margin: 0 auto;
@@ -893,6 +893,7 @@
             padding-top: 30px;
 
             .appointment__message--text {
+                
                 color: #797C80;
 
                 /* мини */
@@ -917,6 +918,7 @@
             }
 
             textarea {
+                width: 100%;
                 margin-top: 10px;
                 border-radius: 4px;
                 border: 1px solid #CFDFE5;
@@ -985,6 +987,6 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.9);
     z-index: 50;
-    padding-top: 60px;
+    padding-top: 30px;
     display: none;
 }
