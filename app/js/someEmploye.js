@@ -4,12 +4,12 @@ let readBtns = document.querySelectorAll('.readFull');
 let zakryt = document.querySelector('.zakryt');
 
 function showComment(){
-    wrapper.style.display = "none";
+    // wrapper.style.display = "none";
     vidguk.style.display = "block";
 }
 
 function showPage(){
-    wrapper.style.display = "block";
+    // wrapper.style.display = "block";
     vidguk.style.display = "none";
 }
 
