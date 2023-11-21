@@ -27,7 +27,8 @@ const swiperservice = new Swiper('.swiper__service', {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
   },
    1000: {
-      slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
+     slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
+     spaceBetween: 30,
     },
   },
   navigation: {
@@ -86,14 +87,14 @@ const swiperhistory = new Swiper('.swiper__history', {
     
     },
     768: {
-      slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
+      slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
       spaceBetween: 40,
     },
     850: {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
       spaceBetween: 40,
     },
-    970: {
+    1000: {
       slidesPerView: 3, // Кількість слайдів при ширині екрану 1300px і більше
       spaceBetween: 60,
     },
@@ -168,10 +169,16 @@ const swiperStrogino1 = new Swiper('.swiper-strogino', {
     nextEl: '.custom-next-button',
     prevEl: '.custom-prev-button',
   },
-  spaceBetween: 0,
+  spaceBetween: 30,
   loop: true,
 
   breakpoints: {
+     430: {
+      slidesPerView: 1, // Кількість слайдів при ширині екрану 1300px і більше
+    },
+    768: {
+      slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
+    },
     820: {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
     },
@@ -191,10 +198,13 @@ const swiperDonskoi2 = new Swiper('.swiper-donskoi', {
     nextEl: '.custom-next-button',
     prevEl: '.custom-prev-button',
   },
-  spaceBetween: 0,
+  spaceBetween: 30,
   loop: true,
 
   breakpoints: {
+    768: {
+      slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
+    },
     820: {
       slidesPerView: 2, // Кількість слайдів при ширині екрану 1300px і більше
     },

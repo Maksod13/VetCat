@@ -1,5 +1,5 @@
  .about__headline {
-     min-height: 256px;
+    padding-bottom: 20px;
      background: linear-gradient(90deg, #E8FAFA 0%, #DCF2E8 100%);
 
      .patients__headline--inner {
@@ -12,6 +12,7 @@
              align-items: center;
              gap: 8px;
              padding-top: 57px;
+
 
              .patients__links--link {
                  color: #797C80;
