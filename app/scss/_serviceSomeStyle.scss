@@ -88,6 +88,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
 
             }
 
@@ -570,7 +575,8 @@
         .someService-section-5 {
             padding-left: 30px;
             padding-right: 30px;
-
+            padding-bottom: 0px;
+            margin-bottom: -150px;
             .someService-swipers-con {
                 .custom-navigation-someService {
                     width: 100vw;
@@ -583,6 +589,7 @@
                     padding-top: 44px;
                     position: relative;
                     overflow: hidden;
+                    margin-top: 0px;
 
                     .shadow1 {
                         position: absolute;
