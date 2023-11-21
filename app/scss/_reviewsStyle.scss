@@ -69,6 +69,11 @@
                 padding: 7px 20px 9px;
                 border-radius: 16px;
                 color: #797C80;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
 
             .active-link-btn {
@@ -142,6 +147,12 @@
                 font-weight: 700;
                 line-height: 24px;
                 border-radius: 16px;
+
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
 
                 &:hover{
                     cursor: pointer;

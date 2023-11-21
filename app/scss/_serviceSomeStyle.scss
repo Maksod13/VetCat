@@ -93,11 +93,22 @@
 
             .meetBtn {
                 background-color: #1DC3B0;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
 
             .showPrice {
                 border: 2px solid #1DC3B0;
                 color: #000;
+
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
 
@@ -435,6 +446,12 @@
                     &:hover {
                         cursor: pointer;
                     }
+
+                    transition: transform 0.3s ease-in-out;
+
+                    &:hover{
+                        transform: scale(1.05);
+                    }
                 }
 
 
@@ -570,6 +587,8 @@
         .someService-section-5 {
             padding-left: 30px;
             padding-right: 30px;
+            padding-bottom: 0px;
+            margin-bottom: -150px;
 
             .someService-swipers-con {
                 .custom-navigation-someService {
@@ -583,6 +602,7 @@
                     padding-top: 44px;
                     position: relative;
                     overflow: hidden;
+                    margin-top: 0px;
 
                     .shadow1 {
                         position: absolute;
